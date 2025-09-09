@@ -1,0 +1,15 @@
+
+    .flex-container{
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: aqua;
+    }
+    .flex-container >div{
+        background-color: black;
+      padding: 30px;
+        margin: 15px;
+        
+        font-size: 30px;
+        color: orange;
+        
+    }
