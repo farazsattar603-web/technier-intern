@@ -1,0 +1,11 @@
+#main{
+    width:350px;
+    height:100px;
+    display: flex;
+    border:1px solid black;
+}
+#main div{
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+#main div:nth-of-type(2){flex-shrink: 8;}
